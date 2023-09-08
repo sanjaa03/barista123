@@ -1,0 +1,160 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Amatic";
+  src: url("../fonts/AmaticSC-Bold.ttf");
+}
+body {
+  font-family: "Oswald";
+  color: #432818;
+}
+
+#logo {
+  font-family: "Amatic";
+}
+#logo a {
+  text-decoration: none;
+  color: #432818;
+}
+
+header {
+  background-color: #E6CCB2;
+  z-index: 10;
+}
+
+.nav-item a {
+  color: #432818;
+}
+.nav-item a:hover {
+  color: #8A7968;
+}
+
+.navbar-toggler {
+  background-color: rgba(67, 40, 24, 0.4);
+  border: 2px solid #432818;
+}
+
+.naslov {
+  color: #432818;
+  font-family: "Amatic";
+  font-size: 100px;
+}
+
+.bojakafa {
+  color: #432818;
+  font-size: 27px;
+}
+
+.bccolor {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+}
+
+.imgabout {
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.imgabout img {
+  border-radius: 25px;
+  border: 2px solid #432818;
+}
+
+.text {
+  text-align: center;
+  flex-direction: column;
+  color: #432818;
+}
+
+.zrna {
+  width: 100%;
+  height: 100px;
+  background-image: url("../img/coffee-beans1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.bs {
+  margin-bottom: 30px;
+}
+
+#colork {
+  background-color: #432818;
+  border: none;
+  margin-top: 30px;
+}
+
+footer {
+  background-color: #432818;
+}
+footer p {
+  color: #E6CCB2;
+}
+footer .fa-brands {
+  color: #E6CCB2;
+}
+footer .fa-solid {
+  color: #E6CCB2;
+}
+
+.ptop {
+  padding-top: 30px;
+}
+
+form {
+  background-color: #E6CCB2;
+  margin-top: 50px;
+  border: 2px solid #432818;
+  border-radius: 15px;
+}
+
+#forma form {
+  color: #432818;
+}
+#forma form input {
+  width: 80%;
+  margin: 20px auto;
+}
+#forma form textarea {
+  width: 80%;
+  margin: 0px auto;
+}
+#forma form button {
+  background-color: #432818;
+  border: none;
+  margin: 0px auto;
+}
+
+#submit {
+  background-color: #432818;
+  color: #E6CCB2;
+}
+
+.formtext {
+  margin-top: 100px;
+}
+
+.icons .fa {
+  color: #432818;
+}
+.icons .fa:hover {
+  color: rgba(67, 40, 24, 0.4);
+}
+.icons .fa-brands {
+  color: #432818;
+}
+.icons .fa-brands:hover {
+  color: rgba(67, 40, 24, 0.4);
+}
+
+#forma {
+  margin-bottom: 50px;
+}/*# sourceMappingURL=style.css.map */

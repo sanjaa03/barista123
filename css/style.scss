@@ -1,0 +1,151 @@
+$bez: #E6CCB2;
+$kafatamna:#432818;
+$kafa2:#8A7968;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family:"Oswald";
+    src:url("../fonts/Oswald-VariableFont_wght.ttf");
+}
+@font-face{
+    font-family:"Amatic";
+    src:url("../fonts/AmaticSC-Bold.ttf");
+}
+body{
+    font-family: "Oswald";
+    color:$kafatamna;
+}
+#logo{
+    font-family:"Amatic";
+    a{
+        text-decoration: none;
+        color:$kafatamna;
+    }
+    
+}
+header{
+    background-color:$bez;
+    z-index:10;
+}
+.nav-item{
+    a{
+        color: $kafatamna;
+    }
+    a:hover{
+        color:$kafa2;
+    }
+}
+.navbar-toggler{
+    background-color: rgba($kafatamna,0.4);
+    border: 2px solid $kafatamna;
+}
+.naslov{
+    color:$kafatamna;
+    font-family: "Amatic";
+    font-size: 100px;
+}
+.bojakafa{
+    color:$kafatamna;
+    font-size:27px;
+}
+.bccolor{
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 20px;
+}
+.imgabout{
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    img{
+        border-radius: 25px;
+        border:2px solid $kafatamna;
+    }
+}
+.text{
+    text-align: center;
+    flex-direction: column;
+    color:$kafatamna;
+}
+.zrna{
+    width:100%;
+    height:100px;
+    background-image: url("../img/coffee-beans1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.bs{
+    margin-bottom: 30px;
+}
+#colork{
+    background-color: $kafatamna;
+    border: none;
+    margin-top:30px;
+}
+
+footer{
+ background-color: #432818;
+
+  p{
+    color:$bez;
+  }
+  .fa-brands{
+    color:$bez;
+  }
+  .fa-solid{
+    color:$bez;
+  }
+}
+.ptop{
+    padding-top:30px;
+}
+form{
+    background-color: #E6CCB2;
+    margin-top: 50px;
+    border: 2px solid $kafatamna;
+    border-radius: 15px;
+}
+#forma form {
+    color:#432818;
+    input{
+    width:80%;
+    margin:20px auto;
+   }
+    textarea{
+        width:80%;
+        margin: 0px auto;
+    }
+    button{
+        background-color: $kafatamna;
+        border: none;
+        margin: 0px auto;
+    
+    }
+}
+#submit{
+    background-color: #432818;
+    color:#E6CCB2;
+}
+.formtext{
+    margin-top: 100px;
+}
+.icons{
+    .fa{
+        color: $kafatamna;
+    }
+    .fa:hover{
+        color:rgba($kafatamna,0.4)
+    }
+    .fa-brands{
+        color: $kafatamna;
+    }
+    .fa-brands:hover{
+        color:rgba($kafatamna,0.4)
+    }
+}
+#forma{
+    margin-bottom: 50px;
+}
